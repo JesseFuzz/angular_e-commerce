@@ -9,6 +9,7 @@ import { NavComponent } from './components/shared/nav/nav.component';
 import { OticastoreAppComponent } from './components/oticastore-app/oticastore-app.component';
 import { FiltersComponent } from './components/oticastore-app/filters/filters.component';
 import { ProductListComponent } from './components/oticastore-app/product-list/product-list.component';
+import { ProductItemComponent } from './components/oticastore-app/product-list/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductListComponent } from './components/oticastore-app/product-list/p
     NavComponent,
     OticastoreAppComponent,
     FiltersComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
